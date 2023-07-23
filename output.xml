@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230723 16:57:48.891" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230723 19:01:01.796" rpa="false" schemaversion="4">
 <suite id="s1" name="Panelscout Robotframework" source="C:\Users\Dell\Documents\GitHub\panelscout_robotframework">
-<suite id="s1-s1" name="Test Login Rf" source="C:\Users\Dell\Documents\GitHub\panelscout_robotframework\test_login_rf.robot">
-<test id="s1-s1-t1" name="Test title" line="6">
-<kw name="Provided precondition">
-<kw name="Setup system under test">
-<msg timestamp="20230723 16:57:48.964" level="FAIL">No keyword with name 'Setup system under test' found.</msg>
-<status status="FAIL" starttime="20230723 16:57:48.964" endtime="20230723 16:57:48.964"/>
+<suite id="s1-s1" name="Test Cases" source="C:\Users\Dell\Documents\GitHub\panelscout_robotframework\Test Cases">
+<suite id="s1-s1-s1" name="Test Robot Robot" source="C:\Users\Dell\Documents\GitHub\panelscout_robotframework\Test Cases\test_robot_robot.robot">
+<test id="s1-s1-s1-t1" name="Library" line="2">
+<kw name="SeleniumLibrary">
+<msg timestamp="20230723 19:01:01.851" level="FAIL">No keyword with name 'SeleniumLibrary' found.</msg>
+<status status="FAIL" starttime="20230723 19:01:01.851" endtime="20230723 19:01:01.851"/>
 </kw>
-<status status="FAIL" starttime="20230723 16:57:48.962" endtime="20230723 16:57:48.964"/>
-</kw>
-<kw name="When action">
-<status status="NOT RUN" starttime="20230723 16:57:48.967" endtime="20230723 16:57:48.967"/>
-</kw>
-<kw name="Then check expectations">
-<status status="NOT RUN" starttime="20230723 16:57:48.968" endtime="20230723 16:57:48.968"/>
-</kw>
-<tag>DEBUG</tag>
-<status status="FAIL" starttime="20230723 16:57:48.961" endtime="20230723 16:57:48.969">No keyword with name 'Setup system under test' found.</status>
+<status status="FAIL" starttime="20230723 19:01:01.847" endtime="20230723 19:01:01.852">No keyword with name 'SeleniumLibrary' found.</status>
 </test>
-<status status="FAIL" starttime="20230723 16:57:48.955" endtime="20230723 16:57:48.972"/>
+<status status="FAIL" starttime="20230723 19:01:01.841" endtime="20230723 19:01:01.853"/>
 </suite>
-<status status="FAIL" starttime="20230723 16:57:48.894" endtime="20230723 16:57:48.974"/>
+<status status="FAIL" starttime="20230723 19:01:01.836" endtime="20230723 19:01:01.856"/>
+</suite>
+<status status="FAIL" starttime="20230723 19:01:01.800" endtime="20230723 19:01:01.858"/>
 </suite>
 <statistics>
 <total>
 <stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="0" fail="1" skip="0">DEBUG</stat>
 </tag>
 <suite>
 <stat pass="0" fail="1" skip="0" id="s1" name="Panelscout Robotframework">Panelscout Robotframework</stat>
-<stat pass="0" fail="1" skip="0" id="s1-s1" name="Test Login Rf">Panelscout Robotframework.Test Login Rf</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Test Cases">Panelscout Robotframework.Test Cases</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Test Robot Robot">Panelscout Robotframework.Test Cases.Test Robot Robot</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20230723 16:57:48.955" level="ERROR">Error in file 'C:\Users\Dell\Documents\GitHub\panelscout_robotframework\test_login_rf.robot' on line 18: Creating keyword 'class TestLoginPage(unittest.TestCase):' failed: User keyword cannot be empty.</msg>
-<msg timestamp="20230723 16:57:48.956" level="ERROR">Error in file 'C:\Users\Dell\Documents\GitHub\panelscout_robotframework\test_login_rf.robot' on line 21: Creating keyword '@classmethod' failed: User keyword cannot be empty.</msg>
-<msg timestamp="20230723 16:57:48.957" level="ERROR">Error in file 'C:\Users\Dell\Documents\GitHub\panelscout_robotframework\test_login_rf.robot' on line 40: Creating keyword '@classmethod' failed: User keyword cannot be empty.</msg>
-<msg timestamp="20230723 16:57:48.958" level="ERROR">Error in file 'C:\Users\Dell\Documents\GitHub\panelscout_robotframework\test_login_rf.robot' on line 40: Creating keyword '@classmethod' failed: Keyword with same name defined multiple times.</msg>
 </errors>
 </robot>

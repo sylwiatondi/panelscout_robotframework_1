@@ -1,7 +1,3 @@
-import unittest
-from selenium.webdriver.chrome import webdriver
-
-
 *** Test Cases ***
 Test title
     [Tags]    DEBUG
@@ -13,10 +9,7 @@ Test title
 Provided precondition
     Setup system under test
 
-
-
 class TestLoginPage(unittest.TestCase):
-
 
 @classmethod
 def setUp(self):
@@ -34,7 +27,6 @@ def test_log_in_to_the_system(self):
     user_login.click_sign_in_button()
     dashboard_page = Dashboard(self.driver)
     dashboard_page.title_of_page_dashboard()
-
 
 
 @classmethod
