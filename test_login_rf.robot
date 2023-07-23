@@ -1,3 +1,7 @@
+import unittest
+from selenium.webdriver.chrome import webdriver
+
+
 *** Test Cases ***
 Test title
     [Tags]    DEBUG
@@ -9,8 +13,6 @@ Test title
 Provided precondition
     Setup system under test
 
-import unittest
-from selenium.webdriver.chrome import webdriver
 
 
 class TestLoginPage(unittest.TestCase):
