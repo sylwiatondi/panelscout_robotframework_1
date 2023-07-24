@@ -1,31 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230723 19:01:01.796" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1 (Python 3.11.4 on win32)" generated="20230724 19:25:10.672" rpa="false" schemaversion="4">
 <suite id="s1" name="Panelscout Robotframework" source="C:\Users\Dell\Documents\GitHub\panelscout_robotframework">
 <suite id="s1-s1" name="Test Cases" source="C:\Users\Dell\Documents\GitHub\panelscout_robotframework\Test Cases">
-<suite id="s1-s1-s1" name="Test Robot Robot" source="C:\Users\Dell\Documents\GitHub\panelscout_robotframework\Test Cases\test_robot_robot.robot">
-<test id="s1-s1-s1-t1" name="Library" line="2">
-<kw name="SeleniumLibrary">
-<msg timestamp="20230723 19:01:01.851" level="FAIL">No keyword with name 'SeleniumLibrary' found.</msg>
-<status status="FAIL" starttime="20230723 19:01:01.851" endtime="20230723 19:01:01.851"/>
+<suite id="s1-s1-s1" name="Test Login Rf" source="C:\Users\Dell\Documents\GitHub\panelscout_robotframework\Test Cases\test_login_rf.robot">
+<test id="s1-s1-s1-t1" name="Test title" line="5">
+<kw name="Provided precondition">
+<kw name="Setup system under test">
+<msg timestamp="20230724 19:25:10.818" level="FAIL">No keyword with name 'Setup system under test' found.</msg>
+<status status="FAIL" starttime="20230724 19:25:10.818" endtime="20230724 19:25:10.819"/>
 </kw>
-<status status="FAIL" starttime="20230723 19:01:01.847" endtime="20230723 19:01:01.852">No keyword with name 'SeleniumLibrary' found.</status>
+<status status="FAIL" starttime="20230724 19:25:10.806" endtime="20230724 19:25:10.820"/>
+</kw>
+<kw name="When action">
+<status status="NOT RUN" starttime="20230724 19:25:10.830" endtime="20230724 19:25:10.830"/>
+</kw>
+<kw name="Then check expectations">
+<status status="NOT RUN" starttime="20230724 19:25:10.839" endtime="20230724 19:25:10.839"/>
+</kw>
+<tag>DEBUG</tag>
+<status status="FAIL" starttime="20230724 19:25:10.802" endtime="20230724 19:25:10.841">No keyword with name 'Setup system under test' found.</status>
 </test>
-<status status="FAIL" starttime="20230723 19:01:01.841" endtime="20230723 19:01:01.853"/>
+<doc>Suite description</doc>
+<status status="FAIL" starttime="20230724 19:25:10.792" endtime="20230724 19:25:10.846"/>
 </suite>
-<status status="FAIL" starttime="20230723 19:01:01.836" endtime="20230723 19:01:01.856"/>
+<status status="FAIL" starttime="20230724 19:25:10.783" endtime="20230724 19:25:10.855"/>
 </suite>
-<status status="FAIL" starttime="20230723 19:01:01.800" endtime="20230723 19:01:01.858"/>
+<status status="FAIL" starttime="20230724 19:25:10.687" endtime="20230724 19:25:10.862"/>
 </suite>
 <statistics>
 <total>
 <stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
+<stat pass="0" fail="1" skip="0">DEBUG</stat>
 </tag>
 <suite>
 <stat pass="0" fail="1" skip="0" id="s1" name="Panelscout Robotframework">Panelscout Robotframework</stat>
 <stat pass="0" fail="1" skip="0" id="s1-s1" name="Test Cases">Panelscout Robotframework.Test Cases</stat>
-<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Test Robot Robot">Panelscout Robotframework.Test Cases.Test Robot Robot</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Test Login Rf">Panelscout Robotframework.Test Cases.Test Login Rf</stat>
 </suite>
 </statistics>
 <errors>

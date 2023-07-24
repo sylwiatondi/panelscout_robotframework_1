@@ -1,6 +1,7 @@
-*** Test Cases ***
+*** Settings ***
+
 Library     SeleniumLibrary
-Documentation   Suite descryption #automated tests for scouts website
+Documentation       Suite descryption #automated tests for scouts website
 
 *** Variables ***
 ${LOGIN URL}        https://scouts-test.futbolkolektyw.pl/en
@@ -17,7 +18,7 @@ Login to the system
     Type in password
     Click on the Submit button
     Assert dashboard
-    [Teardown]    Close Browser
+    [Teardown]      Close Browser
 
 *** Keywords ***
 Open login page
