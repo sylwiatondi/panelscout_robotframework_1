@@ -154,7 +154,7 @@ Click on the left leg
 
 Assert Players page
     wait until element is visible    ${ADDPLAYERSEARCH}
-    title should be     Players (4302) page 1
+    title should be     Players (4369) page 1
     Capture Page Screenshot     alert.png
 
 Assert add player
