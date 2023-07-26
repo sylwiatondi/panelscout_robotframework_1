@@ -8,9 +8,10 @@
   
 ##   *"﻿Subtask 1: Robot framework"*
 
-Output:  C:\Users\Dell\Documents\GitHub\panelscout_robotframework\output.xml
-Log:     C:\Users\Dell\Documents\GitHub\panelscout_robotframework\log.html
-Report:  C:\Users\Dell\Documents\GitHub\panelscout_robotframework\report.html
+* Output:  C:\Users\Dell\Documents\GitHub\panelscout_robotframework\output.xml
+* Log:     C:\Users\Dell\Documents\GitHub\panelscout_robotframework\log.html
+* Report:  C:\Users\Dell\Documents\GitHub\panelscout_robotframework\report.html
+
 
 </details>
 
