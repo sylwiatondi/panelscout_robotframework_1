@@ -8,11 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/panelscout_robotframework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/panelscout_robotframework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test Cases/test_login_rf.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Test Cases/test_login_rf.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test Cases/test_robot_robot.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Test Cases/test_robot_robot.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Cases/test_login_rt.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_login_rt.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/settings.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test_login_rt.robot" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,18 +50,18 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/AppData/Local/Programs/Python/Python311/python.exe&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell\Documents\GitHub\panelscout_robotframework\drivers" />
       <recent name="C:\Users\Dell\Documents\GitHub\panelscout_robotframework" />
+      <recent name="C:\Users\Dell\Documents\GitHub\panelscout_robotframework\drivers" />
       <recent name="C:\Users\Dell\Documents\GitHub\panelscout_robotframework\Test Cases" />
     </key>
   </component>
-  <component name="RunManager" selected="Robot.Test title (1)">
-    <configuration name="Documentation" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+  <component name="RunManager" selected="Robot.Add a player chose leg">
+    <configuration name="Add a player chose leg" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="panelscout_robotframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +74,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;panelscout_robotframework.test_robot_robot.Documentation&quot; ." />
+      <option name="PARAMETERS" value="--test &quot;panelscout_robotframework.test_login_rt.Add a player chose leg&quot; ." />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="true" />
@@ -78,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Libraly SeleniumLibrary" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+    <configuration name="Add a player clear" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="panelscout_robotframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +95,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;panelscout_robotframework.test_robot_robot.Libraly SeleniumLibrary&quot; ." />
+      <option name="PARAMETERS" value="--test &quot;panelscout_robotframework.test_login_rt.Add a player clear&quot; ." />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="true" />
@@ -99,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Library" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+    <configuration name="Add a player" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="panelscout_robotframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +116,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;panelscout_robotframework.Test Cases.test_robot_robot.Library&quot; ." />
+      <option name="PARAMETERS" value="--test &quot;panelscout_robotframework.test_login_rt.Add a player&quot; ." />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="true" />
@@ -120,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Login to the system (1)" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+    <configuration name="Go to player page" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="panelscout_robotframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,7 +137,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;panelscout_robotframework.Test Cases.test_robot_robot.Login to the system&quot; ." />
+      <option name="PARAMETERS" value="--test &quot;panelscout_robotframework.test_login_rt.Go to player page&quot; ." />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="true" />
@@ -141,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test title (1)" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+    <configuration name="Log of from the system" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="panelscout_robotframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +158,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;panelscout_robotframework.Test Cases.test_login_rf.Test title&quot; ." />
+      <option name="PARAMETERS" value="--test &quot;panelscout_robotframework.test_login_rt.Log of from the system&quot; ." />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="true" />
@@ -162,6 +166,22 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Robot.Add a player chose leg" />
+      <item itemvalue="Robot.Add a player clear" />
+      <item itemvalue="Robot.Add a player" />
+      <item itemvalue="Robot.Go to player page" />
+      <item itemvalue="Robot.Log of from the system" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Robot.Add a player chose leg" />
+        <item itemvalue="Robot.Add a player clear" />
+        <item itemvalue="Robot.Add a player" />
+        <item itemvalue="Robot.Go to player page" />
+        <item itemvalue="Robot.Log of from the system" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
