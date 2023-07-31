@@ -4,13 +4,13 @@ Library    SeleniumLibrary
 Documentation       Suite descryption #automated tests for scouts website
 
 *** Variables ***
-${LOGIN URL}        https://scouts-test.futbolkolektyw.pl/en
+${LOGIN URL}       https://dareit.futbolkolektyw.pl/en
 ${BROWSER}      Chrome
 ${SIGNINBUTTON}     xpath=//*[(text()= 'Sign in')]
 ${EMAILINPUT}       xpath=//*[@id='login']
 ${PASSWORDINPUT}        xpath=//*[@id='password']
 ${PAGELOGO}     xpath=//*[@id="__next"]/div[1]/header/div/h6
-${SIGNOUTBUTTON}    xpath=//*[(text()= 'Sign out')]
+${SIGNOUTBUTTON}    xpath=//*[(text()= 'Logout)]
 ${ADDPLAYERBUTTON}  xpath=//*[(text()= 'Add player')]
 ${PLAYERSBUTTTON}   xpath=//*[(text()= 'Players')]
 ${ADDPLAYERSEARCH}     //*[@id="__next"]/div[1]/header/div/div[1]/div[2]/input
@@ -121,7 +121,7 @@ Click on the Sign in button
     Click Element   xpath=//*[(text()= 'Sign in')]
 
 Click on the Sign Out button
-    Click Element   xpath=//*[(text()= 'Sign out')]
+    Click Element   xpath=//*[(text()= 'Logout')]
 
 Click on the Add Player button
     Click Element   xpath=//*[(text()= 'Add player')]
@@ -154,7 +154,7 @@ Click on the left leg
 
 Assert Players page
     wait until element is visible    ${ADDPLAYERSEARCH}
-    title should be     Players (4369) page 1
+    title should be     Players (4532) page 1
     Capture Page Screenshot     alert.png
 
 Assert add player
@@ -169,5 +169,5 @@ Assert add Player page
 
 Assert dashboard
     wait until element is visible    ${PAGELOGO}
-    title should be     Scouts panel
+    title should be     PANEL SKAUTINGOWY
     Capture Page Screenshot     alert.png
